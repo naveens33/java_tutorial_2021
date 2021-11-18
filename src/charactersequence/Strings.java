@@ -27,5 +27,13 @@ public class Strings {
 
         System.out.println(name.substring(2,8));
         System.out.println(name.substring(2));
+
+        /*
+        equals vs compareTo
+         */
+        String str1 = "java";
+        String str2 = "tava";
+        System.out.println(str1.equals(str2));
+        System.out.println(str1.compareTo(str2));
     }
 }
