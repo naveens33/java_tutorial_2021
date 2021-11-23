@@ -1,7 +1,6 @@
 package collections;
 
 import java.util.ArrayDeque;
-import java.util.PriorityQueue;
 
 public class ArrayDequeExample {
     public static void main(String[] args){

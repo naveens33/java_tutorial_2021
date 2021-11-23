@@ -1,8 +1,6 @@
 package collections;
 
-import java.util.Collections;
 import java.util.Stack;
-import java.util.Vector;
 
 public class StackExample {
     public static void main(String[] args){
