@@ -7,6 +7,12 @@ public class Variables {
         2. Contain letters, numbers, underscore and $
         3. Apart from $ and _ no other special characters are allowed
         4. Variable name cannot be reserved words/identifiers
+
+        Types of variables
+        -------------------------
+        1. Local
+        2. Instance
+        3. Static
          */
 
         int firstNum = 5;
