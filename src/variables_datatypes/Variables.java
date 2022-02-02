@@ -19,6 +19,5 @@ public class Variables {
         int secondNum = 6;
         int ans = firstNum+secondNum;
         System.out.println(ans);
-
     }
 }
