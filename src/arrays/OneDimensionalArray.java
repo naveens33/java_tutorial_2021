@@ -27,5 +27,14 @@ public class OneDimensionalArray {
         for(int i=0;i<arr.length;i++){
             System.out.println(arr[i]);
         }
+        int a[] = {10,54,12,20,9};
+        //traversing array -> through index
+        for(int i=0;i<a.length;i++){
+            System.out.println(a[i]);
+        }
+        //traversing array -> through foreach loop
+        for(int item:a){
+            System.out.println(item);
+        }
     }
 }

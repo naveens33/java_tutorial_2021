@@ -1,6 +1,7 @@
 package charactersequence;
 //Palindrome Ex: madam, malayalam
 public class Example1 {
+
     public static void main(String[] args){
         String str = "java";
         String rev = "";
