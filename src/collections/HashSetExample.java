@@ -9,10 +9,13 @@ public class HashSetExample {
         /*
         HashSet
         -------
+
+        * Hashing Algorithm
+
          1. Unordered List
          2. cannot store a duplicate value
         */
-        HashSet<Integer> s = new HashSet<Integer>();
+        HashSet<Integer> s = new HashSet<>();
         s.add(45);
         s.add(90);
         s.add(83);

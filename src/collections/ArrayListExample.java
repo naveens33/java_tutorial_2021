@@ -17,8 +17,10 @@ public class ArrayListExample {
             - mutable
             - dynamic array data structure
             - non-sync
+            - preserves the insertion order
+            - allows duplicates
         */
-        ArrayList<Integer> li = new ArrayList<Integer>();
+        ArrayList<Integer> li = new ArrayList<>();
         li.add(45);
         li.add(25);
         li.add(75);
@@ -32,7 +34,7 @@ public class ArrayListExample {
         li.add(1,78);
         System.out.println(li);
 
-        ArrayList<Integer> li1 = new ArrayList<Integer>();
+        ArrayList<Integer> li1 = new ArrayList<>();
         li1.add(0);
         li1.add(8);
         li1.add(11);

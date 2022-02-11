@@ -10,12 +10,13 @@ public class LinkedListExample {
         LinkedList
             - mutable
             - Doubly Linked List
+            - non sync
 
          ArrayList vs LinkedList
           - ArrayList --> Shifting whenever you do insert, delete
           - LinkedList --> No Shifting of elements during insert/delete
         */
-        LinkedList<Integer> li = new LinkedList<Integer>();
+        LinkedList<Integer> li = new LinkedList<>();
         li.add(45);
         li.add(25);
         li.add(75);
@@ -29,7 +30,7 @@ public class LinkedListExample {
         li.add(1,78);
         System.out.println(li);
 
-        ArrayList<Integer> li1 = new ArrayList<Integer>();
+        ArrayList<Integer> li1 = new ArrayList<>();
         li1.add(0);
         li1.add(8);
         li1.add(11);

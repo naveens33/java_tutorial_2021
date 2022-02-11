@@ -11,9 +11,9 @@ public class ArrayDequeExample {
 
         ArrayDeque
             - not sorted
-            - Null value
+            - not allow Null value
         */
-        ArrayDeque<Integer> q = new ArrayDeque<Integer>();
+        ArrayDeque<Integer> q = new ArrayDeque<>();
         q.add(45);
         q.add(25);
         q.add(75);

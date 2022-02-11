@@ -11,9 +11,9 @@ public class PriorityQueueExample {
 
         PriorityQueue
             - Sorted
-            - Null value
+            - not allow Null value
         */
-        PriorityQueue<Integer> q = new PriorityQueue<Integer>();
+        PriorityQueue<Integer> q = new PriorityQueue<>();
         q.add(45);
         q.add(25);
         q.add(75);
