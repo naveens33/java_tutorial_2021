@@ -10,7 +10,9 @@ public class LinkedListExample {
         LinkedList
             - mutable
             - Doubly Linked List
-            - non sync
+            - non-sync
+            - allow duplicated
+            - preserves the insertion order
 
          ArrayList vs LinkedList
           - ArrayList --> Shifting whenever you do insert, delete

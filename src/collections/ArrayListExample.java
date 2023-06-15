@@ -29,6 +29,10 @@ public class ArrayListExample {
             System.out.println(li.get(i));
         }
 
+        for(Integer i:li){
+            System.out.println(i);
+        }
+
         System.out.println(li.indexOf(25));
 
         li.add(1,78);

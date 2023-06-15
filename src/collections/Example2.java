@@ -1,8 +1,5 @@
 package collections;
 
-import sun.awt.image.ImageWatched;
-
-import java.sql.Array;
 import java.util.*;
 
 public class Example2 {

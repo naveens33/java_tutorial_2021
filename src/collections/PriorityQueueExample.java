@@ -13,12 +13,21 @@ public class PriorityQueueExample {
             - Sorted
             - not allow Null value
         */
-        PriorityQueue<Integer> q = new PriorityQueue<>();
-        q.add(45);
-        q.add(25);
-        q.add(75);
-        System.out.println(q);
-        q.remove();
-        System.out.println(q);
+        PriorityQueue<String> q = new PriorityQueue<>();
+        q.add("carrot");
+
+        PriorityQueue<Number> q1 = new PriorityQueue<>();
+        q1.add(new Integer(6));
+        q1.add(new Double(1.0));
+
+        System.out.println(q1);
+
+
+        q.add("apple");
+        q.add("banana");
+        System.out.println(q.poll()+" "+q.peek());
+        //System.out.println(q);
+        //q.remove();
+        //System.out.println(q);
     }
 }

@@ -10,6 +10,8 @@ public class VectorExample {
             - mutable
             - Dynamic Array data structure
             - Synchronized
+            - preserves the insertion order
+            - allows duplicates
         */
         Vector<Integer> li = new Vector<Integer>();
         li.add(45);
