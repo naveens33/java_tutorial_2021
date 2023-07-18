@@ -1,4 +1,4 @@
-package variables_datatypes;
+package variables_keywords_operators_datatypes;
 
 public class DataTypes {
     public static void main(String args[]){
