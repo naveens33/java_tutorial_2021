@@ -9,7 +9,7 @@
 
 1. [Introduction to Java](introduction.md)
 2. [Variables, DataTypes, Reserved Words and Operators](src/variables_keywords_operators_datatypes/variables_keywords_operators_datatypes.md)
-3. [Conditional Statements](conditional_statements/conditional_statements.md)
+3. [Conditional Statements](src/conditional_statements/conditional_statements.md)
     * [Questions and Answers](conditional_statements/QA.md)
 4. [Looping](looping_statements/looping.md)
 5. [Strings](strings/strings.md)
