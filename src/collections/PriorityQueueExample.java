@@ -1,5 +1,6 @@
 package collections;
 
+import java.util.Comparator;
 import java.util.PriorityQueue;
 
 public class PriorityQueueExample {
@@ -13,21 +14,21 @@ public class PriorityQueueExample {
             - Sorted
             - not allow Null value
         */
+
+        //Comparator <String> customComparator = Comparator.reverseOrder();
+        //PriorityQueue<String> q = new PriorityQueue<>(customComparator);
         PriorityQueue<String> q = new PriorityQueue<>();
-        q.add("carrot");
-
-        PriorityQueue<Number> q1 = new PriorityQueue<>();
-        q1.add(new Integer(6));
-        q1.add(new Double(1.0));
-
-        System.out.println(q1);
-
-
-        q.add("apple");
         q.add("banana");
-        System.out.println(q.poll()+" "+q.peek());
+        q.add("orange");
+        q.add("grape");
+        q.add("apple");
+        //System.out.println(q.poll()+" "+q.peek());
         //System.out.println(q);
         //q.remove();
         //System.out.println(q);
+        while (!q.isEmpty()) {
+            String element = q.poll();
+            System.out.println("Dequeued: " + element);
+        }
     }
 }

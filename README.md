@@ -21,33 +21,34 @@
       3. [Vector](src/collections/Vector.md)
       4. [Stack](src/collections/Stack.md)
       5. [ArrayList vs LinkedList vs Vector vs Stack](src/collections/arraylist_linkedlist_vector_stack.md)
-   2. Queue
+   2. [Queue](src/collections/Queue.md)
       1. Priority Queue
       2. Deque
          1. ArrayDeque
-9. [Tuple](list_tuple_set_dict/tuple.md)
-10. [Set](list_tuple_set_dict/set.md)
-11. [Dict](list_tuple_set_dict/dict.md)
-12. [Mathematical Functions](math_example/math.md)
-13. [Functions](functions/function.md)
-14. [Lambda Function](functions/lambda.md)
-15. [Map Filter Reduce](functions/map_filter_reduce.md)
-16. [Module](module/module.md)
-17. [Exception Handling](exception_handling/exception_handling.md)
-18. OOPs Concept
+   3. [Set](src/collections/Set.md)
+      1. HashSet
+      2. LinkedHashSet
+      3. SortedSet
+         1. TreeSet
+9. [Java Streams](src/java_streams/streams.md)
+10. [Methods](src/methods/methods.md)
+11. [Map Filter Reduce](functions/map_filter_reduce.md)
+12. [Module](module/module.md)
+13. [Exception Handling](exception_handling/exception_handling.md)
+14. OOPs Concept
     1. [Class and Objects](oops_concept_notes/classes_object.md)
     2. [Constructor and Destructor](oops_concept_notes/constructor_destructor.md)
     3. [Polymorphism](oops_concept_notes/polymorphism.md)
     4. [Inheritance](oops_concept_notes/inheritance.md)
     5. [Encapsulation](oops_concept_notes/encapsulation.md)
     6. [Private, Protected and Public](oops_concept_notes/private_protected_public.md)
-19. [List Comprehension](list_comprehension/list_comprehension.md)
-20. [Recursion](functions/function.md)
-21. [Assert Statement](Misc/assert.md)
-22. [Generators](Misc/generator.md)
-23. [Memory Management](Misc/memory_management.md)
-24. [Regex](Misc/regular_expression.md)
-25. [DateTime](Misc/datetime.md)
-26. [venv](Misc/venv.md)
-27. [os module](Misc/venv.md)
-28. [xlrd and xlwt]()
+15. [List Comprehension](list_comprehension/list_comprehension.md)
+16. [Recursion](functions/function.md)
+17. [Assert Statement](Misc/assert.md)
+18. [Generators](Misc/generator.md)
+19. [Memory Management](Misc/memory_management.md)
+20. [Regex](Misc/regular_expression.md)
+21. [DateTime](Misc/datetime.md)
+22. [venv](Misc/venv.md)
+23. [os module](Misc/venv.md)
+24. [xlrd and xlwt]()
