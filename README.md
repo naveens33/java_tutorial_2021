@@ -32,7 +32,6 @@
          1. TreeSet
 9. [Java Streams](src/java_streams/streams.md)
 10. [Methods](src/methods/methods.md)
-11. [Map Filter Reduce](functions/map_filter_reduce.md)
 12. [Module](module/module.md)
 13. [Exception Handling](exception_handling/exception_handling.md)
 14. OOPs Concept
