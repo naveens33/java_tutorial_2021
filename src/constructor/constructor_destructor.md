@@ -1,6 +1,6 @@
 There are constructors and destructors, but they work slightly differently compared to some other programming languages. Let me explain:
 
-**Constructors:**
+**Constructors**
 - A constructor in Java is a special type of method that is automatically called when an object is created using the `new` keyword.
 - Constructors have the same name as the class and do not have a return type, not even `void`.
 - Constructors can have parameters, allowing you to initialize instance variables during object creation.
@@ -17,6 +17,16 @@ public class MyClass {
     }
 }
 ```
+
+**Default and Parameterized Constructors**
+
+* Default constructor has no parameters and is provided by Java if no constructor is defined in the class.
+* Parameterized constructor accepts parameters and allows you to initialize instance variables with specific values during object creation.
+
+**Constructor Overloading**
+
+* Constructor overloading involves defining multiple constructors in a class with different parameter lists.
+* This allows objects to be created with different sets of initial values.
 
 **Destructors:**
 In Java, there is no equivalent of destructors as found in languages like C++. Java has automatic memory management using the garbage collector, which takes care of deallocating memory when objects are no longer reachable. Developers don't need to explicitly destroy objects like they do with destructors in languages that don't have garbage collection.
