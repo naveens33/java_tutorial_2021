@@ -42,7 +42,7 @@
     5. [Inheritance](src/inheritance/inheritance.md)
     6. [super keyword](src/inheritance/super.md)
     7. [Encapsulation](oops_concept_notes/encapsulation.md)
-    8. [Private, Protected and Public](oops_concept_notes/private_protected_public.md)
+    8. [Access modifiers](src/accessmodifiers/accessmodifiers.md)
 13. [List Comprehension](list_comprehension/list_comprehension.md)
 14. [Recursion](functions/function.md)
 15. [Assert Statement](Misc/assert.md)
