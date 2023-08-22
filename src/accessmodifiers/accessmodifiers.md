@@ -14,11 +14,11 @@ There are four main access modifiers in Java:
 
 Here's a summary of their visibility:
 
-| Modifier    | Same Class | Same Package | Subclass (Same/Different Package) | Other Classes (Same/Different Package) |
-|-------------|------------|--------------|-----------------------------------|--------------------------------------|
-| public      | Yes        | Yes          | Yes                               | Yes                                  |
+| Modifier    | Same Class | Same Package | Subclass/Inheritance (Same/Different Package) | Other Classes (Different Package) |
+|-------------|------------|--------------|-----------------------------------|------------------------------------|
+| public      | Yes        | Yes          | Yes                               | Yes                                |
 | protected   | Yes        | Yes          | Yes/Yes                           | No/No                                |
-| default     | Yes        | Yes          | No/No                             | No/No                                |
+| default     | Yes        | Yes          | Yes/No                            | No/No                                |
 | private     | Yes        | No           | No/No                             | No/No                                |
 
 Note:
