@@ -174,3 +174,66 @@ Expected Output:
 ```
 50
 ```
+
+
+In Java, the `Stream` class provides three types of operations: intermediate operations, terminal operations, and short-circuiting operations. These operations allow you to perform various transformations and computations on streams of data. Here's an overview of each type:
+
+1. **Intermediate Operations:**
+
+   Intermediate operations in Java streams are used to transform, filter, or manipulate the elements in a stream. These operations return a new stream that can be further processed. Here is a list of common intermediate operations in the `Stream` class:
+
+1. `filter(Predicate<T> predicate)`: Returns a new stream consisting of elements that match the given predicate.
+
+2. `map(Function<T, R> mapper)`: Returns a new stream by applying the given function to each element.
+
+3. `flatMap(Function<T, Stream<R>> mapper)`: Returns a new stream by applying a function that produces a stream for each element and then flattening the resulting streams into a single stream.
+
+4. `distinct()`: Returns a new stream with distinct elements based on their `equals` method.
+
+5. `sorted()`: Returns a new stream with elements sorted in natural order.
+
+6. `sorted(Comparator<T> comparator)`: Returns a new stream with elements sorted according to the provided comparator.
+
+7. `peek(Consumer<T> action)`: Returns a new stream that performs an action on each element as they are consumed from the resulting stream.
+
+8. `limit(long maxSize)`: Returns a new stream containing the first `maxSize` elements of the original stream.
+
+9. `skip(long n)`: Returns a new stream after skipping the first `n` elements of the original stream.
+
+10. `takeWhile(Predicate<T> predicate)`: Returns a new stream of elements that match the predicate until the first element that does not match is encountered.
+
+11. `dropWhile(Predicate<T> predicate)`: Returns a new stream of elements after dropping elements that match the predicate until the first element that does not match is encountered.
+
+12. `mapToInt(ToIntFunction<T> mapper)`, `mapToLong(ToLongFunction<T> mapper)`, `mapToDouble(ToDoubleFunction<T> mapper)`: Specialized mapping operations for primitive streams.
+
+13. `boxed()`: Converts a primitive stream to a stream of boxed values (e.g., `IntStream` to `Stream<Integer>`).
+
+These intermediate operations allow you to manipulate the data within a stream before applying terminal operations to obtain a result. You can chain multiple intermediate operations together to create complex data transformations.
+
+2. **Terminal Operations:**
+
+   Terminal operations are operations that produce a result or a side effect. These operations trigger the processing of the stream and cannot be chained together. Terminal operations are used to obtain a final result from a stream, such as collecting the elements into a collection, counting, or finding the minimum or maximum value. Some common terminal operations include:
+
+    - `forEach(Consumer<T> action)`: Performs an action on each element in the stream.
+    - `collect(Collector<T, A, R> collector)`: Collects elements into a collection or aggregation.
+    - `reduce(identity, accumulator)`: Aggregates elements into a single result.
+    - `min(Comparator<T> comparator)`: Finds the minimum element.
+    - `max(Comparator<T> comparator)`: Finds the maximum element.
+    - `count()`: Counts the number of elements in the stream.
+    - `anyMatch(Predicate<T> predicate)`: Checks if any element matches a predicate.
+    - `allMatch(Predicate<T> predicate)`: Checks if all elements match a predicate.
+    - `noneMatch(Predicate<T> predicate)`: Checks if no elements match a predicate.
+    - `toArray`: Collects the elements of the stream into an array.
+    - `forEachOrdered`: Performs an action on each element of the stream in a defined order, maintaining the order of the original stream.
+
+3. **Short-Circuiting Operations:**
+
+   Short-circuiting operations are a subset of terminal operations that allow for early termination of the stream processing based on certain conditions. These operations can improve performance when searching for elements or checking conditions in a large stream. Common short-circuiting operations include:
+
+    - `findAny()`: Returns the first element found and may not process all elements.
+    - `findFirst()`: Returns the first element found and may not process all elements.
+    - `anyMatch(Predicate<T> predicate)`: Returns `true` as soon as any element matches the predicate.
+    - `allMatch(Predicate<T> predicate)`: Returns `false` as soon as any element fails to match the predicate.
+    - `noneMatch(Predicate<T> predicate)`: Returns `true` as soon as any element matches the predicate.
+
+These three types of operations in the `Stream` class allow you to perform a wide range of data processing tasks in a concise and expressive manner.
