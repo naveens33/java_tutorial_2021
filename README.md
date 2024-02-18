@@ -41,15 +41,14 @@
     6. [super keyword](src/inheritance/super.md)
     7. [Encapsulation](src/encapsulation/encapsulation.md)
     8. [Access modifiers](src/accessmodifiers/accessmodifiers.md)
-    9. Serialization
-    10. Generics
+    9. [Serialization](src/serialization/notes.md)
+    10. [Generics](src/generic/notes.md)
     11. Annotations
-    12. Reflection
-    13. Enums
-    14. Optional
+    12. [Reflection](src/reflections/notes.md)
+    13. [Enums](src/enumeration/notes.md)
+    14. [Optional](src/optional/notes.md)
 13. [Abstract Class](src/abstract_class/abstract_class.md)
 14. [Interface](src/interface_example/interface.md)
 15. [Exception Handling](src/exception_handling/exception_handling.md)
 16. [Multithreading](src/multithreading/Notes.md)
-    1. Concurrency Utilities
-17. Regular Expressions
+17. [Regular Expressions](src/regular_expression/notes.md)
