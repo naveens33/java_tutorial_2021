@@ -20,7 +20,7 @@ public class NonSynchronizationExample{
 }
 
 class PrintOddNumber{
-    public synchronized void print(int startRange, int endRange){
+    public void print(int startRange, int endRange){
         for(int i=startRange;i<endRange;i++){
             if(i%2!=0){
                 System.out.println(i);
